@@ -1,6 +1,6 @@
 @echo off
 cls
-echo Clean up Logs
+echo Clean Up Logs
 del /q ad*.txt
 
 echo -----------------------------
@@ -53,5 +53,3 @@ rmdir /s /q "ad-group-security-list\.terraform"
 echo -----------------------------
 
 pause
-
-ad-group-security-create-1
